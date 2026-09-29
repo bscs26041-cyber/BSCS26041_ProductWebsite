@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products Page</title>
+<link rel="stylesheet" href="BSCS26041_style.css">
+</head>
+<body>
+<header class="navbar">
+<div class="nav-links">
+<a href="bscs26041_home.html">HOME</a>
+<a href="BSCS26041_product.html" class="active">PRODUCTS</a>
+<a href="BSCS26041_contact.html">ABOUT US</a>
+</div>
+</header>
+<main class="products-container">
+<section class="product-box">
+<div class="product-img-container">
+<img src="bscs26041_image0.png" alt="Product One" class="product-image">
+</div>
+<div class="product-details">
+    <h2 class="product-name">All Chrome Polish</h2>
+    <p class="product-price">$27</p>
+    <button onclick="checkStock('chrome-status')">Check Availability</button>
+    <p id="chrome-status" class="product-status"></p>
+    
+    <p class="product-description">Mothers California Gold All-Chrome is a convenient spray-on formula designed to clean, polish, and protect automotive chrome surfaces in one easy step.</p>
+</div>
+
+</section>
+<section class="product-box">
+<div class="product-img-container">
+<img src="bscs26041_image1.jpg" alt="Product Two" class="product-image">
+</div>
+<div class="product-details">
+    <h2 class="product-name">Mag And Aluminium Polish</h2>
+    <p class="product-price">$50</p>
+    <button onclick="checkStock('mag-status')">Check Availability</button>
+    <p id="mag-status" class="product-status"></p>
+    
+    <p class="product-description">Mothers Mag & Aluminum Polish features a specialized balancing formula that delivers a brilliant, mirror-like shine while remaining easy to apply with a simple cloth and light buffing.</p>
+</div>
+</section>
+<section class="product-box">
+<div class="product-img-container">
+<img src="bscs26041_image2.jpg" class="product-image">
+</div>
+<div class="product-details">
+    <h2 class="product-name">Metal Polish </h2>
+    <p class="product-price">$30</p>
+    <button onclick="checkStock('metal-status')">Check Availability</button>
+    
+    <p id="metal-status" class="product-status"></p>
+    
+    <p class="product-description">Mothers Metal Polish restores a brilliant, mirror-like shine to automotive metals while remaining easy to use.</p>
+</div>
+</section>
+<section class="product-box">
+<div class="product-img-container">
+<img src="bscs26041_image3.webp" class="product-image">
+</div>
+<div class="product-details">
+    <h2 class="product-name">Ultra finishing Polish</h2>
+    <p class="product-price">$60</p>
+    <button onclick="checkStock('polish-status')">Check Availability</button>
+    <p id="polish-status" class="product-status"></p>
+    
+    <p class="product-description">Mothers Professional Ultra Finishing Polish is an advanced automotive polish engineered to remove fine machine swirls and maximize paint gloss.</p>
+</div>
+</section> 
+<section class="product-box">
+<div class="product-img-container">
+<img src="bscs26041_image4.jpg" class="product-image">
+</div>
+<div class="product-details">
+    <h2 class="product-name">Synthetic Wax</h2>
+    <p class="product-price">$40</p>
+    <button onclick="checkStock('status-synthetic-wax')">Check Availability</button>
+    <p id="status-synthetic-wax" class="product-status"></p>
+
+    <p class="product-description">Mothers California Gold Synthetic Wax provides a deep, wet-look gloss and chemical-bonding protection in an easy-on, easy-off formula.</p>
+</div>
+</section>
+</main>
+    <script src="BSCS-A 26041_script.js"></script>
+</body>
+</html>
